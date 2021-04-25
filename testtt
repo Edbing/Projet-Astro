@@ -1,0 +1,6 @@
+import astropy.io.fits as pyfits #Permet de manipluer des .fits
+import numpy as np  
+import matplotlib.pyplot as plt # Pour tracer les graphes      
+from scipy import signal as sig # Pour lisser les graphes    
+from scipy.interpolate import interp1d   
+import math # Pour le calcul
